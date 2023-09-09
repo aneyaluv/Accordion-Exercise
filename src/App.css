@@ -1,0 +1,67 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #be93fe, #fc63e5);
+ padding-top: 40px;  
+ padding-bottom: 40px;
+}
+
+h1 {
+  color: white;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.accordion-container {
+  display: grid;
+  width: 40em;
+  background-color: rgb(251, 243, 255);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  row-gap: 20px;
+}
+
+.script { 
+  background-color: rgb(255, 255, 255);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  border:1px solid rgb(155, 103, 182);
+}
+
+.btn {
+  display: grid;
+  align-items: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: rgb(255, 255, 255);
+  border:1px solid rgb(175, 120, 204);
+}
+
+.btn:hover {  
+  border: 1px solid #ff69c8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.title {
+  padding-top: 3px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
